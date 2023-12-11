@@ -1,0 +1,27 @@
+{
+  "item.dys.yaju_block": "野兽方块",
+  "block.dys.yaju_block": "野兽方块",
+  "item.dys.ringo": "林檎",
+  "item.dys.golden_ringo": "金金金金金金金金金金林檎",
+  "subtitles.block.yaju_block.place": "野兽方块：放置",
+  "item.dys.yaju": "野兽先辈",
+  "subtitles.ambient.yaju.shout": "野兽先辈：嚎叫",
+  "subtitles.ambient.tokugawa.shout": "德川：三段击",
+  "subtitles.ambient.yaju.yarimasu": "野兽先辈：压力马斯内",
+  "item.dys.kurumi_shovel": "胡一铲",
+  "item.kurumi_shovel.tip1": "§o胡桃所使用的铲子。",
+  "item.kurumi_shovel.tip2": "§o对付亡灵的利器。",
+  "item.golden_ringo.tip1": "§o闪烁着金金金金金光的林檎。",
+  "item.golden_ringo.tip2": "§o吃§l三回啊三回§r§o这个林檎会发生奇妙的事情。",
+  "item.dys.akaza_akari": "赤座灯里",
+  "item.dys.extreme_spear": "极霸矛",
+  "effect.dys.senpai_stare": "先辈凝视",
+  "subtitles.ambient.akaza_akari.akarin": "阿卡林~",
+  "subtitles.ambient.gaba.gold": "金金金金金金，钱钱钱钱钱钱",
+  "subtitles.ambient.dededon": "噔噔咚",
+  "msg.golden_ringo.1": "§l你感觉到有一个一个一个homo在注视着你（激寒）...",
+  "msg.golden_ringo.2": "§l你感觉到大地开始晃动力（悲）",
+  "msg.golden_ringo.3": "§6§l有一个一个一个监守者爬出来力！（绝望）",
+  "msg.golden_ringo.3.1": "§6§l监守者想撅你，却撅不到你（喜）"
+
+}

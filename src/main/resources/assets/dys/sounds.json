@@ -1,0 +1,73 @@
+{
+  "block.yaju_block.place":
+  {
+    "subtitle": "subtitles.block.yaju_block.place",
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "dys:yaju_block/place",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.yaju.shout": {
+    "subtitle": "subtitles.ambient.yaju.shout",
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "dys:yaju/shout",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.tokugawa.shout": {
+    "subtitle": "subtitles.ambient.tokugawa.shout",
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "dys:tokugawa/shout",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.yaju.yarimasu": {
+    "subtitle": "subtitles.ambient.yaju.yarimasu",
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "dys:yaju/yarimasu",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.akaza_akari.akarin": {
+    "subtitle": "subtitles.ambient.akaza_akari.akarin",
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "dys:akaza_akari/akarin",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.gaba.gold": {
+    "subtitle": "subtitles.ambient.gaba.gold",
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "dys:gaba/gold",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.dededon": {
+    "subtitle": "subtitles.ambient.dededon",
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "dys:dededon",
+        "stream": true
+      }
+    ]
+  }
+}
