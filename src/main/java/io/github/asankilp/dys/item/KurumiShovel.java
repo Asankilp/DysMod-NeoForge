@@ -4,9 +4,7 @@ package io.github.asankilp.dys.item;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.damagesource.DamageSources;
-import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
@@ -14,8 +12,8 @@ import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.Nullable;
 
-import javax.annotation.Nullable;
 import java.util.List;
 
 public class KurumiShovel extends ShovelItem {
@@ -38,9 +36,10 @@ public class KurumiShovel extends ShovelItem {
             target.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 30, 10, true, true));
 //            target.addPotionEffect(new EffectInstance(Effects.INSTANT_HEALTH, 1,4));
             if (attacker instanceof Player) {
-                target.hurt(new DamageSources(RegistryAccess.EMPTY).playerAttack((Player) attacker), 1145);
+                target.hurt(attacker.level().damageSources().playerAttack((Player) attacker), getAttackDamage() * 5);
             } else {
-                target.hurt(new DamageSources(RegistryAccess.EMPTY).mobAttack(attacker), 1145);
+                target.hurt(attacker.level().damageSources().mobAttack(attacker), getAttackDamage() * 5);
+
             }
 
         }

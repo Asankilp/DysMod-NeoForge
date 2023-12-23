@@ -20,6 +20,16 @@
       }
     ]
   },
+  "ambient.yaju.short_shout": {
+    "subtitle": "subtitles.ambient.yaju.short_shout",
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "dys:yaju/short_shout",
+        "stream": true
+      }
+    ]
+  },
   "ambient.tokugawa.shout": {
     "subtitle": "subtitles.ambient.tokugawa.shout",
     "replace": "true",

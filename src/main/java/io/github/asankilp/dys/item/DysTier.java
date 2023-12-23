@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 
 public enum DysTier implements Tier{
     DEADIRON(3, 870, 10.0F, 4.0F, 30, () -> {
-        return Ingredient.of(ItemReg.DEAD_IRON.get());
+        return Ingredient.of(DysItems.DEAD_IRON.get());
     });
 
     private final int level;

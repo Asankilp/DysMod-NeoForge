@@ -8,7 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Supplier;
 
 
-public class EffectReg {
+public class DysEffects {
     public static final DeferredRegister<MobEffect> EFFECTS = DeferredRegister.create(BuiltInRegistries.MOB_EFFECT, Dys.MODID);
     public static final Supplier<MobEffect> SENPAI_STARE = EFFECTS.register("senpai_stare", SenpaiEffect::new);
 

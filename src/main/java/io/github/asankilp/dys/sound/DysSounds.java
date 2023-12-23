@@ -9,10 +9,12 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Supplier;
 
 
-public class SoundReg {
+public class DysSounds {
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, Dys.MODID);
     public static final Supplier<SoundEvent> YAJU_SOUND = SOUNDS.register("ambient.yaju.shout", ()
             -> SoundEvent.createVariableRangeEvent(new ResourceLocation(Dys.MODID, "ambient.yaju.shout")));
+    public static final Supplier<SoundEvent> YAJU_SHORT_SHOUT_SOUND = SOUNDS.register("ambient.yaju.short_shout", ()
+            -> SoundEvent.createVariableRangeEvent(new ResourceLocation(Dys.MODID, "ambient.yaju.short_shout")));
     public static final Supplier<SoundEvent> YAJU_BLOCK_PLACE_SOUND = SOUNDS.register("block.yaju_block.place", ()
             -> SoundEvent.createVariableRangeEvent(new ResourceLocation(Dys.MODID, "block.yaju_block.place")));
     public static final Supplier<SoundEvent> TOKUGAWA_SHOUT_SOUND = SOUNDS.register("ambient.tokugawa.shout", ()

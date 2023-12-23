@@ -1,7 +1,8 @@
 package io.github.asankilp.dys;
-import io.github.asankilp.dys.effect.EffectReg;
-import io.github.asankilp.dys.item.ItemReg;
-import io.github.asankilp.dys.sound.SoundReg;
+import io.github.asankilp.dys.block.DysBlocks;
+import io.github.asankilp.dys.effect.DysEffects;
+import io.github.asankilp.dys.item.DysItems;
+import io.github.asankilp.dys.sound.DysSounds;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -16,11 +17,10 @@ public class Dys {
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-        ItemReg.BLOCKS.register(modEventBus);
-        // Register the Deferred Register to the mod event bus so items get registered
-        ItemReg.ITEMS.register(modEventBus);
-        SoundReg.SOUNDS.register(modEventBus);
-        EffectReg.EFFECTS.register(modEventBus);
+        DysBlocks.BLOCKS.register(modEventBus);
+        DysItems.ITEMS.register(modEventBus);
+        DysSounds.SOUNDS.register(modEventBus);
+        DysEffects.EFFECTS.register(modEventBus);
     }
     private void commonSetup(final FMLCommonSetupEvent event) {
         // Some common setup code
